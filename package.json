@@ -41,10 +41,9 @@
     "@nativescript/theme": "~3.0.1",
     "axios": "^0.21.1",
     "nativescript-vue": "~2.9.0",
-    "nativescript-vue-navigator": "^1.2.0"
   },
   "devDependencies": {
-    "@nativescript/android": "8.0.0",
+    "@nativescript/webpack": "beta",
     "nativescript-vue-template-compiler": "~2.9.0",
     "sass": "^1.32.8"
   },
