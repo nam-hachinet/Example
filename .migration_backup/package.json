@@ -45,6 +45,9 @@
   },
   "devDependencies": {
     "@nativescript/android": "8.0.0",
+    "@nativescript/webpack": "beta",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "nativescript-dev-webpack": "^1.5.1",
     "nativescript-vue-template-compiler": "~2.9.0",
     "sass": "^1.32.8"
   },
