@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import DetailPage from "./detail_page/DetailPage";
+import Detail from "./detail_page/DetailPage";
 export default {
   data() {
     return {
@@ -46,8 +46,8 @@ export default {
         .catch((error) => console.log(error));
     },
     onItemTap(e) {
-      //console.log(e.item.id);
-      this.$navigateTo(DetailPage);
+      console.log(e.item.id);
+      this.$navigateTo(Detail);
     },
   },
   created() {

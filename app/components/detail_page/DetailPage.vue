@@ -1,5 +1,5 @@
 <template>
-  <Page class="detail-page">
+  <Page>
     <ActionBar title="Detail Player" class="action-bar" />
     <ScrollView orientation="horizontal">
       <StackLayout orientation="horizontal">
@@ -10,6 +10,8 @@
     </ScrollView>
   </Page>
 </template>
+
+
 
 
 
